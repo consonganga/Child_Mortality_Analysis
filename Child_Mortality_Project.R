@@ -47,7 +47,7 @@ summary_table =Child_Mortality_data_set_Cleaned %>%
   ungroup()
 summary_table
 
-b=summary_table %>%
+Summarized_table=summary_table %>%
   gt() %>%
   tab_header(
     title = "Child Mortality Rate by Continent and Age Group"
@@ -66,4 +66,4 @@ b=summary_table %>%
     table.font.size = 12,
     table.width = pct(100)
   )
-b
+Summarized_table
